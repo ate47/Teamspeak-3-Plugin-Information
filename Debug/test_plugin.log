@@ -1,0 +1,4 @@
+﻿  plugin.c
+     Creating library \projects\teamspeak\plugins\Informations_plugin.lib and object \projects\teamspeak\plugins\Informations_plugin.exp
+  test_plugin.vcxproj -> \projects\teamspeak\plugins\Informations_plugin.dll
+  test_plugin.vcxproj -> \projects\teamspeak\plugins\Informations_plugin.pdb (Full PDB)

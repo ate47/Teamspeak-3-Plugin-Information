@@ -1,0 +1,25 @@
+﻿  plugin.c
+plugin.c(480): warning C4047: 'function': 'int *' differs in levels of indirection from 'int **'
+plugin.c(480): warning C4024: 'ts3Functions': different types for formal and actual parameter 3
+plugin.c(488): warning C4047: 'function': 'int *' differs in levels of indirection from 'int **'
+plugin.c(488): warning C4024: 'ts3Functions': different types for formal and actual parameter 4
+plugin.c(495): warning C4047: 'function': 'int *' differs in levels of indirection from 'int **'
+plugin.c(495): warning C4024: 'ts3Functions': different types for formal and actual parameter 4
+plugin.c(496): warning C4047: 'function': 'int *' differs in levels of indirection from 'int **'
+plugin.c(496): warning C4024: 'ts3Functions': different types for formal and actual parameter 4
+plugin.c(497): warning C4047: 'function': 'int *' differs in levels of indirection from 'int **'
+plugin.c(497): warning C4024: 'ts3Functions': different types for formal and actual parameter 4
+plugin.c(506): warning C4020: 'ts3Functions': too many actual parameters
+plugin.c(484): warning C4477: 'sprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 3 has type 'int *'
+plugin.c(490): warning C4477: 'sprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'uint64'
+  plugin.c(490): note: consider using '%lld' in the format string
+  plugin.c(490): note: consider using '%I64d' in the format string
+plugin.c(490): warning C4477: 'sprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 3 has type 'int *'
+plugin.c(499): warning C4477: 'sprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 4 has type 'int *'
+plugin.c(499): warning C4477: 'sprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 5 has type 'int *'
+plugin.c(499): warning C4477: 'sprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 6 has type 'int *'
+plugin.c(835): warning C4101: 'name': unreferenced local variable
+plugin.c(895): warning C4101: 'myID': unreferenced local variable
+i:\save\ts\plugin\pluginsdk\src\plugin.c(896): warning C4716: 'ts3plugin_onClientPokeEvent': must return a value
+  test_plugin.vcxproj -> I:\save\ts\plugin\pluginsdk\src\Release\Informations_plugin.dll
+  test_plugin.vcxproj -> I:\save\ts\plugin\pluginsdk\src\Release\Informations_plugin.pdb (Full PDB)
