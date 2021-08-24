@@ -1,31 +1,31 @@
 ﻿  plugin.c
-plugin.c(244): warning C4047: 'function': 'int *' differs in levels of indirection from 'int **'
-plugin.c(244): warning C4024: 'ts3Functions': different types for formal and actual parameter 3
-plugin.c(252): warning C4047: 'function': 'int *' differs in levels of indirection from 'int **'
-plugin.c(252): warning C4024: 'ts3Functions': different types for formal and actual parameter 4
-plugin.c(259): warning C4047: 'function': 'int *' differs in levels of indirection from 'int **'
-plugin.c(259): warning C4024: 'ts3Functions': different types for formal and actual parameter 4
-plugin.c(260): warning C4047: 'function': 'int *' differs in levels of indirection from 'int **'
-plugin.c(260): warning C4024: 'ts3Functions': different types for formal and actual parameter 4
-plugin.c(261): warning C4047: 'function': 'int *' differs in levels of indirection from 'int **'
-plugin.c(261): warning C4024: 'ts3Functions': different types for formal and actual parameter 4
-plugin.c(270): warning C4020: 'ts3Functions': too many actual parameters
-plugin.c(248): warning C4477: 'sprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 3 has type 'int *'
-plugin.c(248): warning C4313: 'sprintf_s': '%d' in format string conflicts with argument 3 of type 'int *'
-plugin.c(254): warning C4477: 'sprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'uint64'
-  plugin.c(254): note: consider using '%lld' in the format string
-  plugin.c(254): note: consider using '%Id' in the format string
-  plugin.c(254): note: consider using '%I64d' in the format string
-plugin.c(254): warning C4477: 'sprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 3 has type 'int *'
-plugin.c(254): warning C4313: 'sprintf_s': '%d' in format string conflicts with argument 3 of type 'int *'
-plugin.c(263): warning C4477: 'sprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 4 has type 'int *'
-plugin.c(263): warning C4313: 'sprintf_s': '%d' in format string conflicts with argument 4 of type 'int *'
-plugin.c(263): warning C4477: 'sprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 5 has type 'int *'
-plugin.c(263): warning C4313: 'sprintf_s': '%d' in format string conflicts with argument 5 of type 'int *'
-plugin.c(263): warning C4477: 'sprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 6 has type 'int *'
-plugin.c(263): warning C4313: 'sprintf_s': '%d' in format string conflicts with argument 6 of type 'int *'
-plugin.c(580): warning C4101: 'name': unreferenced local variable
-plugin.c(640): warning C4101: 'myID': unreferenced local variable
-i:\save\ts\plugin\pluginsdk\src\plugin.c(641): warning C4716: 'ts3plugin_onClientPokeEvent': must return a value
-  test_plugin.vcxproj -> I:\save\ts\plugin\pluginsdk\src\x64\Release\Informations_plugin.dll
-  test_plugin.vcxproj -> I:\save\ts\plugin\pluginsdk\src\x64\Release\Informations_plugin.pdb (Full PDB)
+C:\Users\Shadow\source\repos\Teamspeak-3-Plugin-Information\plugin.c(244,102): warning C4047: 'function': 'int *' differs in levels of indirection from 'int **'
+C:\Users\Shadow\source\repos\Teamspeak-3-Plugin-Information\plugin.c(244,94): warning C4024: 'ts3Functions': different types for formal and actual parameter 3
+C:\Users\Shadow\source\repos\Teamspeak-3-Plugin-Information\plugin.c(248,38): warning C4477: 'sprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 3 has type 'int *'
+C:\Users\Shadow\source\repos\Teamspeak-3-Plugin-Information\plugin.c(248,38): warning C4313: 'sprintf_s': '%d' in format string conflicts with argument 3 of type 'int *'
+C:\Users\Shadow\source\repos\Teamspeak-3-Plugin-Information\plugin.c(252,101): warning C4047: 'function': 'int *' differs in levels of indirection from 'int **'
+C:\Users\Shadow\source\repos\Teamspeak-3-Plugin-Information\plugin.c(252,93): warning C4024: 'ts3Functions': different types for formal and actual parameter 4
+C:\Users\Shadow\source\repos\Teamspeak-3-Plugin-Information\plugin.c(254,38): warning C4477: 'sprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'uint64'
+C:\Users\Shadow\source\repos\Teamspeak-3-Plugin-Information\plugin.c(254,38): message : consider using '%lld' in the format string
+C:\Users\Shadow\source\repos\Teamspeak-3-Plugin-Information\plugin.c(254,38): message : consider using '%Id' in the format string
+C:\Users\Shadow\source\repos\Teamspeak-3-Plugin-Information\plugin.c(254,38): message : consider using '%I64d' in the format string
+C:\Users\Shadow\source\repos\Teamspeak-3-Plugin-Information\plugin.c(254,38): warning C4477: 'sprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 3 has type 'int *'
+C:\Users\Shadow\source\repos\Teamspeak-3-Plugin-Information\plugin.c(254,38): warning C4313: 'sprintf_s': '%d' in format string conflicts with argument 3 of type 'int *'
+C:\Users\Shadow\source\repos\Teamspeak-3-Plugin-Information\plugin.c(259,111): warning C4047: 'function': 'int *' differs in levels of indirection from 'int **'
+C:\Users\Shadow\source\repos\Teamspeak-3-Plugin-Information\plugin.c(259,101): warning C4024: 'ts3Functions': different types for formal and actual parameter 4
+C:\Users\Shadow\source\repos\Teamspeak-3-Plugin-Information\plugin.c(260,119): warning C4047: 'function': 'int *' differs in levels of indirection from 'int **'
+C:\Users\Shadow\source\repos\Teamspeak-3-Plugin-Information\plugin.c(260,102): warning C4024: 'ts3Functions': different types for formal and actual parameter 4
+C:\Users\Shadow\source\repos\Teamspeak-3-Plugin-Information\plugin.c(261,106): warning C4047: 'function': 'int *' differs in levels of indirection from 'int **'
+C:\Users\Shadow\source\repos\Teamspeak-3-Plugin-Information\plugin.c(261,98): warning C4024: 'ts3Functions': different types for formal and actual parameter 4
+C:\Users\Shadow\source\repos\Teamspeak-3-Plugin-Information\plugin.c(263,38): warning C4477: 'sprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 4 has type 'int *'
+C:\Users\Shadow\source\repos\Teamspeak-3-Plugin-Information\plugin.c(263,38): warning C4313: 'sprintf_s': '%d' in format string conflicts with argument 4 of type 'int *'
+C:\Users\Shadow\source\repos\Teamspeak-3-Plugin-Information\plugin.c(263,38): warning C4477: 'sprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 5 has type 'int *'
+C:\Users\Shadow\source\repos\Teamspeak-3-Plugin-Information\plugin.c(263,38): warning C4313: 'sprintf_s': '%d' in format string conflicts with argument 5 of type 'int *'
+C:\Users\Shadow\source\repos\Teamspeak-3-Plugin-Information\plugin.c(263,38): warning C4477: 'sprintf_s' : format string '%d' requires an argument of type 'int', but variadic argument 6 has type 'int *'
+C:\Users\Shadow\source\repos\Teamspeak-3-Plugin-Information\plugin.c(263,38): warning C4313: 'sprintf_s': '%d' in format string conflicts with argument 6 of type 'int *'
+C:\Users\Shadow\source\repos\Teamspeak-3-Plugin-Information\plugin.c(270,31): warning C4020: 'ts3Functions': too many actual parameters
+C:\Users\Shadow\source\repos\Teamspeak-3-Plugin-Information\plugin.c(580,7): warning C4101: 'name': unreferenced local variable
+C:\Users\Shadow\source\repos\Teamspeak-3-Plugin-Information\plugin.c(640,11): warning C4101: 'myID': unreferenced local variable
+C:\Users\Shadow\source\repos\Teamspeak-3-Plugin-Information\plugin.c(641): warning C4716: 'ts3plugin_onClientPokeEvent': must return a value
+     Creating library C:\Users\Shadow\Source\Repos\Teamspeak-3-Plugin-Information\x64\Release\Informations_plugin.lib and object C:\Users\Shadow\Source\Repos\Teamspeak-3-Plugin-Information\x64\Release\Informations_plugin.exp
+  test_plugin.vcxproj -> C:\Users\Shadow\Source\Repos\Teamspeak-3-Plugin-Information\x64\Release\Informations_plugin.dll
